@@ -11,6 +11,7 @@ public class Sketch extends PApplet {
     noFill();
     stroke(255);
     myFractal(width / 2, height / 2, 200);
+    noLoop(); // Prevents continuous redrawing
   }
 
   public void draw() {
