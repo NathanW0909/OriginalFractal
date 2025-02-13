@@ -3,15 +3,14 @@ import processing.core.PApplet;
 public class Sketch extends PApplet {
 
   public void settings() {
-    size(400, 400);
+    fullScreen();
   }
 
   public void setup() {
-    background(0);
     noFill();
     stroke(255);
-    myFractal(width / 2, height / 2, 200);
-    noLoop(); // Prevents continuous redrawing
+    myFractal(width / 2, height / 2, width / 3);
+    noLoop();
   }
 
   public void draw() {
