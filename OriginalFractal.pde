@@ -1,8 +1,5 @@
-import processing.core.PApplet;
 
-public class Sketch extends PApplet {
-
- void setup() {
+public void setup() {
   size(400, 400);
   noFill();
   stroke(255);
@@ -10,10 +7,10 @@ public class Sketch extends PApplet {
   noLoop(); 
 }
 
-void draw() {
+public void draw() {
 }
 
-void myFractal(int x, int y, int siz) {
+public void myFractal(int x, int y, int siz) {
   if (siz < 5) return;
 
   rectMode(CENTER);
