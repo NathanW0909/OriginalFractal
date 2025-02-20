@@ -1,9 +1,9 @@
 
 public void setup() {
-  size(500, 500);
+  size(600, 600);
   noFill();
   stroke(255);
-  myFractal(width / 2, height / 2, 200);
+  myFractal((250,250,500));
   noLoop(); 
 }
 
