@@ -1,6 +1,6 @@
 
 public void setup() {
-  size(400, 400);
+  size(500, 500);
   noFill();
   stroke(255);
   myFractal(width / 2, height / 2, 200);
